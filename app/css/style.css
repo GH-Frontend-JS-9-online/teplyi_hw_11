@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f4f4f4;
+  text-align: left;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.input {
+  width: 300px;
+  height: 30px;
+  border: 3px solid #000;
+  margin-bottom: 15px;
+}
+
+.btn {
+  border: 3px solid #000;
+  height: 30px;
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.information {
+  height: 300px;
+  width: 300px;
+  border: 3px solid #000;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10%;
+}
+
+.log-validation__header {
+  margin-bottom: 20px;
+}
+
+.log-validation__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.log-validation__text {
+  color: red;
+  margin-bottom: 25px;
+}
+
+.sign-validation {
+  display: none;
+}
+
+.sign-validation__header {
+  margin-bottom: 20px;
+}
+
+.sign-validation__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-validation__text {
+  color: red;
+  margin-bottom: 25px;
+}
+
+.reset-validation {
+  display: none;
+}
+
+.reset-validation__header {
+  margin-bottom: 20px;
+}
+
+.reset-validation__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reset-validation__text {
+  color: red;
+  margin-bottom: 25px;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}

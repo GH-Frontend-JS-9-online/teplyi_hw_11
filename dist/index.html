@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="information"></div>
+
+        <div class="log-validation">
+            <div class="log-validation__header">
+                <h2 class="log-validation__title">Log In</h2>
+                <a href="#" id="notMemberBtn">Not a member?</a>
+            </div>
+
+            <div class="log-validation__log-form">
+                <form class="log-validation__form" action="#">
+                    <input type="email" id="logInEmail" class="input" placeholder="Email...">
+                    <input type="password" id="logInPassword" class="input" autocomplete="current-password" placeholder="Password...">
+                    <span class="log-validation__text invisible">error</span>
+                    <input type="submit" value="Log In" id="logInBtn" class="btn">
+                    <a href="#" id="forgotPasswordBtn">Forgot password?</a>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="sign-validation">
+            <div class="sign-validation__header">
+                <h2 class="sign-validation__title">Sign Up</h2>
+                <a href="#" id="exisitingMemberBtn">Existing member?</a>
+            </div>
+
+            <div class="sign-validation__sign-form">
+                <form class="sign-validation__form" action="#">
+                    <input type="email" id="signUpEmail" class="input sign-validation__input" placeholder="Email...">
+                    <input type="password" id="signUpPassword" class="input sign-validation__input" autocomplete="off" placeholder="Password...">
+                    <input type="password" id="signUpPasswordConfirm" class="input sign-validation__input" autocomplete="off" placeholder="Confirm Password...">
+                    <span class="sign-validation__text invisible">error</span>
+                    <input type="submit" value="Sign Up" id="signUpBtn" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+        <div class="reset-validation">
+            <div class="reset-validation__header">
+                <h2 class="reset-validation__title">Reset Password</h2>
+                <a href="#" id="notMemberResetBtn">Not a member?</a>
+                <p class="invisible">Please enter your new password</p>
+            </div>
+
+            <div class="reset-validation__reset-form">
+                <form class="reset-validation__form form1" action="#">
+                    <input type="email" id="resetEmail" class="input reset-validation__input" placeholder="Email...">
+                    <span class="reset-validation__text invisible">error</span>
+                    <input type="submit" value="Reset" id="resetBtn" class="btn">
+                    <p>sample text</p>
+                </form>
+
+                <p class="reset-validation__sample invisible">sample text222</p>
+
+                <form class="reset-validation__form form3 invisible" action="#">
+                    <input type="password" id="resetPassword" class="input reset-validation__input" autocomplete="off" placeholder="Password...">
+                    <input type="password" id="resetPasswordConfirm" class="input reset-validation__input" autocomplete="off" placeholder="Confirm Password...">
+                    <span class="reset-validation__text">error</span>
+                    <input type="submit" value="Reset" id="resetBtn2" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
